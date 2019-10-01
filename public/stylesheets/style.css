@@ -1,8 +1,39 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 40px "Cera CY", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+
+.button {
+  color: #000;
+  cursor: pointer;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  padding: 1em 2em 1em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+
+  box-shadow: 0px 2px 0 #F2F6F7, 2px 4px 6px #C7D5D9;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: all 150ms linear;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #F2F6F7;
+  box-shadow: 1px 1px 2px #F2F6F7;
+  color: #000; 
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #F2F6F7;
+  transition: all 250ms linear;
+    text-decoration: none;
 }
